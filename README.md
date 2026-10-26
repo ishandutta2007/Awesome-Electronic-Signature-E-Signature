@@ -65,7 +65,7 @@ The table below lists leading commercial electronic signature platforms, ranked 
 
 ## 💻 Open-Source GitHub Projects
 
-Explore top-tier open-source document signing engines, PDF cryptographic libraries, and web-based DocuSign alternatives. Repositories are **sorted by GitHub Stars_Count (descending)**.
+Explore top-tier open-source document signing engines, PDF cryptographic libraries, and web-based DocuSign alternatives. Repositories are **sorted by GitHub_Stars_Count (descending)**.
 
 - **[DocuSeal](https://github.com/docusealco/docuseal)** [![GitHub_Stars](https://img.shields.io/github/stars/docusealco/docuseal?style=social&color=white)](https://github.com/docusealco/docuseal/stargazers)  
   *The leading open-source DocuSign alternative.* Features a drag-and-drop WYSIWYG PDF form builder, automated field detection, multi-party signing sequences, mobile responsiveness, and ESIGN/UETA/eIDAS compliance. Licensed under AGPL-3.0 with lightweight Docker deployment supporting PostgreSQL, MySQL, and SQLite.
