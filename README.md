@@ -65,60 +65,60 @@ The table below lists leading commercial electronic signature platforms, ranked 
 
 ## 💻 Open-Source GitHub Projects
 
-Explore top-tier open-source document signing engines, PDF cryptographic libraries, and web-based DocuSign alternatives. Repositories are **sorted by GitHub Star Count (descending)**.
+Explore top-tier open-source document signing engines, PDF cryptographic libraries, and web-based DocuSign alternatives. Repositories are **sorted by GitHub Stars_Count (descending)**.
 
-- **[DocuSeal](https://github.com/docusealco/docuseal)** [![GitHub stars](https://img.shields.io/github/stars/docusealco/docuseal?style=social&color=white)](https://github.com/docusealco/docuseal/stargazers)  
+- **[DocuSeal](https://github.com/docusealco/docuseal)** [![GitHub_Stars](https://img.shields.io/github/stars/docusealco/docuseal?style=social&color=white)](https://github.com/docusealco/docuseal/stargazers)  
   *The leading open-source DocuSign alternative.* Features a drag-and-drop WYSIWYG PDF form builder, automated field detection, multi-party signing sequences, mobile responsiveness, and ESIGN/UETA/eIDAS compliance. Licensed under AGPL-3.0 with lightweight Docker deployment supporting PostgreSQL, MySQL, and SQLite.
 
-- **[Documenso](https://github.com/documenso/documenso)** [![GitHub stars](https://img.shields.io/github/stars/documenso/documenso?style=social&color=white)](https://github.com/documenso/documenso/stargazers)  
+- **[Documenso](https://github.com/documenso/documenso)** [![GitHub_Stars](https://img.shields.io/github/stars/documenso/documenso?style=social&color=white)](https://github.com/documenso/documenso/stargazers)  
   *The modern, transparent open-source e-signature platform.* Built on Next.js, TypeScript, Prisma, and PostgreSQL. Provides cryptographic PDF signing with RFC 3161 timestamps, custom branding, public API keys, webhooks, and team access control. AGPL-3.0 licensed.
 
-- **[Signature Pad](https://github.com/szimek/signature_pad)** [![GitHub stars](https://img.shields.io/github/stars/szimek/signature_pad?style=social&color=white)](https://github.com/szimek/signature_pad/stargazers)  
+- **[Signature Pad](https://github.com/szimek/signature_pad)** [![GitHub_Stars](https://img.shields.io/github/stars/szimek/signature_pad?style=social&color=white)](https://github.com/szimek/signature_pad/stargazers)  
   *HTML5 canvas-based smooth electronic signature drawing library.* Uses variable-width Bézier curves for natural-looking digital ink signatures on mobile, desktop, and tablets. MIT licensed.
 
-- **[OpenSign](https://github.com/OpenSignLabs/OpenSign)** [![GitHub stars](https://img.shields.io/github/stars/OpenSignLabs/OpenSign?style=social&color=white)](https://github.com/OpenSignLabs/OpenSign/stargazers)  
+- **[OpenSign](https://github.com/OpenSignLabs/OpenSign)** [![GitHub_Stars](https://img.shields.io/github/stars/OpenSignLabs/OpenSign?style=social&color=white)](https://github.com/OpenSignLabs/OpenSign/stargazers)  
   *Free and open-source document signing solution.* Features multi-signer workflows, PDF template management, OTP guest verification, expiring sign links, detailed audit trails, and OpenSign Drive cloud storage. MIT licensed.
 
-- **[PDF Editor](https://github.com/ShizukuIchi/pdf-editor)** [![GitHub stars](https://img.shields.io/github/stars/ShizukuIchi/pdf-editor?style=social&color=white)](https://github.com/ShizukuIchi/pdf-editor/stargazers)  
+- **[PDF Editor](https://github.com/ShizukuIchi/pdf-editor)** [![GitHub_Stars](https://img.shields.io/github/stars/ShizukuIchi/pdf-editor?style=social&color=white)](https://github.com/ShizukuIchi/pdf-editor/stargazers)  
   *Browser-based offline PDF editor and signer.* Enables users to sign documents, place signatures, annotate, and add fields directly on the client side without uploading files to remote servers. MIT licensed.
 
-- **[Digital Signature Service (DSS)](https://github.com/esig/dss)** [![GitHub stars](https://img.shields.io/github/stars/esig/dss?style=social&color=white)](https://github.com/esig/dss/stargazers)  
+- **[Digital Signature Service (DSS)](https://github.com/esig/dss)** [![GitHub_Stars](https://img.shields.io/github/stars/esig/dss?style=social&color=white)](https://github.com/esig/dss/stargazers)  
   *Official European Commission open-source cryptographic framework.* Supports creation and validation of advanced and qualified electronic signatures (PAdES, XAdES, CAdES, JAdES, ASiC) compliant with EU Regulation No 910/2014 (eIDAS) and ETSI technical standards. LGPL-2.1 licensed.
 
-- **[Node SignPDF](https://github.com/vbuch/node-signpdf)** [![GitHub stars](https://img.shields.io/github/stars/vbuch/node-signpdf?style=social&color=white)](https://github.com/vbuch/node-signpdf/stargazers)  
+- **[Node SignPDF](https://github.com/vbuch/node-signpdf)** [![GitHub_Stars](https://img.shields.io/github/stars/vbuch/node-signpdf?style=social&color=white)](https://github.com/vbuch/node-signpdf/stargazers)  
   *Lightweight Node.js library for cryptographic PDF signing.* Injects digital signatures, certificate byte ranges, and PKCS#7 / CMS signatures into PDF files on the backend. MIT licensed.
 
-- **[LibreSign](https://github.com/LibreSign/libresign)** [![GitHub stars](https://img.shields.io/github/stars/LibreSign/libresign?style=social&color=white)](https://github.com/LibreSign/libresign/stargazers)  
+- **[LibreSign](https://github.com/LibreSign/libresign)** [![GitHub_Stars](https://img.shields.io/github/stars/LibreSign/libresign?style=social&color=white)](https://github.com/LibreSign/libresign/stargazers)  
   *Sovereign e-signature app for Nextcloud.* Provides self-hosted digital signing, verification, PDF form filling, and cryptographic validation directly within enterprise private cloud environments. AGPL-3.0 licensed.
 
-- **[SignaturePDF](https://github.com/24eme/signaturepdf)** [![GitHub stars](https://img.shields.io/github/stars/24eme/signaturepdf?style=social&color=white)](https://github.com/24eme/signaturepdf/stargazers)  
+- **[SignaturePDF](https://github.com/24eme/signaturepdf)** [![GitHub_Stars](https://img.shields.io/github/stars/24eme/signaturepdf?style=social&color=white)](https://github.com/24eme/signaturepdf/stargazers)  
   *Self-hosted web platform for collaborative PDF signing.* Allows single or multi-recipient document signing, page management, metadata editing, and PDF compression. AGPL-3.0 licensed.
 
-- **[pyHanko](https://github.com/MatthiasValvekens/pyHanko)** [![GitHub stars](https://img.shields.io/github/stars/MatthiasValvekens/pyHanko?style=social&color=white)](https://github.com/MatthiasValvekens/pyHanko/stargazers)  
+- **[pyHanko](https://github.com/MatthiasValvekens/pyHanko)** [![GitHub_Stars](https://img.shields.io/github/stars/MatthiasValvekens/pyHanko?style=social&color=white)](https://github.com/MatthiasValvekens/pyHanko/stargazers)  
   *CLI and Python library for cryptographic signing and stamping of PDF files.* Full support for PAdES, hardware PKCS#11 security tokens, RFC 3161 timestamps, validation records (DSS/LTV), and trust-list evaluation. MIT licensed.
 
-- **[React Signature Canvas](https://github.com/agilgur5/react-signature-canvas)** [![GitHub stars](https://img.shields.io/github/stars/agilgur5/react-signature-canvas?style=social&color=white)](https://github.com/agilgur5/react-signature-canvas/stargazers)  
+- **[React Signature Canvas](https://github.com/agilgur5/react-signature-canvas)** [![GitHub_Stars](https://img.shields.io/github/stars/agilgur5/react-signature-canvas?style=social&color=white)](https://github.com/agilgur5/react-signature-canvas/stargazers)  
   *Lightweight, high-performance React component wrapper around signature_pad.* Ideal for embedding tactile touch/mouse signature collection into modern web applications. MIT licensed.
 
-- **[JSignPdf](https://github.com/intoolswetrust/jsignpdf)** [![GitHub stars](https://img.shields.io/github/stars/intoolswetrust/jsignpdf?style=social&color=white)](https://github.com/intoolswetrust/jsignpdf/stargazers)  
+- **[JSignPdf](https://github.com/intoolswetrust/jsignpdf)** [![GitHub_Stars](https://img.shields.io/github/stars/intoolswetrust/jsignpdf?style=social&color=white)](https://github.com/intoolswetrust/jsignpdf/stargazers)  
   *Cross-platform desktop application and command-line tool for PDF digital signing.* Features visible signature placement, PKCS#11 and PKCS#12 keystore support, RFC 3161 timestamping, and long-term validation (LTV). LGPL licensed.
 
-- **[SignServer Community Edition](https://github.com/Keyfactor/signserver-ce)** [![GitHub stars](https://img.shields.io/github/stars/Keyfactor/signserver-ce?style=social&color=white)](https://github.com/Keyfactor/signserver-ce/stargazers)  
+- **[SignServer Community Edition](https://github.com/Keyfactor/signserver-ce)** [![GitHub_Stars](https://img.shields.io/github/stars/Keyfactor/signserver-ce?style=social&color=white)](https://github.com/Keyfactor/signserver-ce/stargazers)  
   *Enterprise PKI-based signing server software by Keyfactor.* Automates server-side signing of documents (PDF, XML, Office), code, and time-stamping authorities with hardware security module (HSM) support. LGPL-2.1 licensed.
 
-- **[Trexo PDF Signer](https://github.com/trexolab-solution/trexo-pdf-signer)** [![GitHub stars](https://img.shields.io/github/stars/trexolab-solution/trexo-pdf-signer?style=social&color=white)](https://github.com/trexolab-solution/trexo-pdf-signer/stargazers)  
+- **[Trexo PDF Signer](https://github.com/trexolab-solution/trexo-pdf-signer)** [![GitHub_Stars](https://img.shields.io/github/stars/trexolab-solution/trexo-pdf-signer?style=social&color=white)](https://github.com/trexolab-solution/trexo-pdf-signer/stargazers)  
   *Desktop client for legally binding PDF signatures.* Supports PKCS#11 hardware USB tokens, PKCS#12/PFX certificates, Windows Certificate Store, and RFC 3161 time-stamping. MIT licensed.
 
-- **[OpenSig](https://github.com/OpenSig/opensig)** [![GitHub stars](https://img.shields.io/github/stars/OpenSig/opensig?style=social&color=white)](https://github.com/OpenSig/opensig/stargazers)  
+- **[OpenSig](https://github.com/OpenSig/opensig)** [![GitHub_Stars](https://img.shields.io/github/stars/OpenSig/opensig?style=social&color=white)](https://github.com/OpenSig/opensig/stargazers)  
   *Decentralized e-signature web application for signing and notarizing documents on EVM blockchains.* Anchors cryptographic document hashes to public distributed ledgers. MIT licensed.
 
-- **[DigiSign PHP](https://github.com/digitalcz/digisign)** [![GitHub stars](https://img.shields.io/github/stars/digitalcz/digisign?style=social&color=white)](https://github.com/digitalcz/digisign/stargazers)  
+- **[DigiSign PHP](https://github.com/digitalcz/digisign)** [![GitHub_Stars](https://img.shields.io/github/stars/digitalcz/digisign?style=social&color=white)](https://github.com/digitalcz/digisign/stargazers)  
   *PHP API client library for DigiSign e-signature automation.* PSR-18 compliant client for managing envelopes, signers, and signature verification. MIT licensed.
 
-- **[django-esign](https://github.com/RecursionSpace/django-esign)** [![GitHub stars](https://img.shields.io/github/stars/RecursionSpace/django-esign?style=social&color=white)](https://github.com/RecursionSpace/django-esign/stargazers)  
+- **[django-esign](https://github.com/RecursionSpace/django-esign)** [![GitHub_Stars](https://img.shields.io/github/stars/RecursionSpace/django-esign?style=social&color=white)](https://github.com/RecursionSpace/django-esign/stargazers)  
   *Reusable Django package for handling document signing workflows.* Captures electronic human signatures with audit trail logging in Django web applications. BSD licensed.
 
-- **[esign-app](https://github.com/digital-blueprint/esign-app)** [![GitHub stars](https://img.shields.io/github/stars/digital-blueprint/esign-app?style=social&color=white)](https://github.com/digital-blueprint/esign-app/stargazers)  
+- **[esign-app](https://github.com/digital-blueprint/esign-app)** [![GitHub_Stars](https://img.shields.io/github/stars/digital-blueprint/esign-app?style=social&color=white)](https://github.com/digital-blueprint/esign-app/stargazers)  
   *PAdES digital signing application for PDF documents.* Supports electronic signing, validation certificates, and document archiving. Apache-2.0 licensed.
 
 ---
