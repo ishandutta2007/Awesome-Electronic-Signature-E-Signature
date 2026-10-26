@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360" style="background: #090d16; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a12" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1145" />
+    </linearGradient>
+
+    <linearGradient id="primaryGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8">
+        <animate attributeName="stop-color" values="#38bdf8;#818cf8;#38bdf8" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#818cf8">
+        <animate attributeName="stop-color" values="#818cf8;#c084fc;#818cf8" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#34d399">
+        <animate attributeName="stop-color" values="#34d399;#38bdf8;#34d399" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="penStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+
+    <!-- Drop Shadows & Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="textShadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.8" />
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.75" stroke-opacity="0.5" />
+      <circle cx="40" cy="40" r="1.5" fill="#334155" opacity="0.6" />
+    </pattern>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" fill="url(#bgGradient)" />
+  <rect width="1200" height="360" fill="url(#grid)" />
+
+  <!-- Animated Ambient Radial Glows in Background -->
+  <circle cx="200" cy="180" r="160" fill="#06b6d4" opacity="0.12" filter="url(#glow)">
+    <animate attributeName="r" values="140;180;140" dur="6s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.08;0.16;0.08" dur="6s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="1000" cy="120" r="180" fill="#8b5cf6" opacity="0.14" filter="url(#glow)">
+    <animate attributeName="r" values="160;200;160" dur="7s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.10;0.18;0.10" dur="7s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Dynamic Background Element: Animated Digital Signature Drawing Line -->
+  <g opacity="0.4" filter="url(#glow)">
+    <path d="M 120 280 Q 220 220, 310 260 T 450 240 T 580 290 T 730 220 T 910 270 T 1080 240"
+          fill="none" stroke="url(#primaryGlow)" stroke-width="3" stroke-linecap="round"
+          stroke-dasharray="1200" stroke-dashoffset="1200">
+      <animate attributeName="stroke-dashoffset" values="1200;0;1200" dur="10s" repeatCount="indefinite" ease="ease-in-out" />
+    </path>
+    <!-- Secondary flourish line -->
+    <path d="M 280 290 Q 420 330, 620 295 T 920 310"
+          fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-dasharray="600" stroke-dashoffset="600">
+      <animate attributeName="stroke-dashoffset" values="600;0;600" dur="8s" begin="1s" repeatCount="indefinite" />
+    </path>
+  </g>
+
+  <!-- Animated Floating Metadata Pills (Positioned around borders, low visual weight) -->
+  <g>
+    <!-- Pill 1: eIDAS & ESIGN -->
+    <g transform="translate(900, 45)">
+      <animateTransform attributeName="transform" type="translate" values="900,45; 900,40; 900,45" dur="4s" repeatCount="indefinite" />
+      <rect width="180" height="30" rx="15" fill="#1e293b" stroke="#38bdf8" stroke-width="1" opacity="0.85" />
+      <circle cx="16" cy="15" r="4" fill="#38bdf8">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="30" y="20" fill="#93c5fd" font-size="12" font-weight="600">eIDAS &amp; ESIGN Legal</text>
+    </g>
+
+    <!-- Pill 2: RFC 3161 Timestamps -->
+    <g transform="translate(100, 50)">
+      <animateTransform attributeName="transform" type="translate" values="100,50; 100,55; 100,50" dur="5s" repeatCount="indefinite" />
+      <rect width="210" height="30" rx="15" fill="#1e293b" stroke="#a855f7" stroke-width="1" opacity="0.85" />
+      <circle cx="16" cy="15" r="4" fill="#a855f7">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite" />
+      </circle>
+      <text x="30" y="20" fill="#d8b4fe" font-size="12" font-weight="600">RFC 3161 PAdES / XAdES</text>
+    </g>
+
+    <!-- Pill 3: Self-Hosted & Sovereign -->
+    <g transform="translate(80, 290)">
+      <animateTransform attributeName="transform" type="translate" values="80,290; 80,285; 80,290" dur="4.5s" repeatCount="indefinite" />
+      <rect width="190" height="30" rx="15" fill="#1e293b" stroke="#34d399" stroke-width="1" opacity="0.85" />
+      <circle cx="16" cy="15" r="4" fill="#34d399">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="30" y="20" fill="#6ee7b7" font-size="12" font-weight="600">Self-Hosted &amp; Sovereign</text>
+    </g>
+
+    <!-- Pill 4: Open Source & SaaS -->
+    <g transform="translate(930, 285)">
+      <animateTransform attributeName="transform" type="translate" values="930,285; 930,290; 930,285" dur="5.5s" repeatCount="indefinite" />
+      <rect width="180" height="30" rx="15" fill="#1e293b" stroke="#f43f5e" stroke-width="1" opacity="0.85" />
+      <circle cx="16" cy="15" r="4" fill="#f43f5e">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2.2s" repeatCount="indefinite" />
+      </circle>
+      <text x="30" y="20" fill="#fda4af" font-size="12" font-weight="600">Open-Source &amp; SaaS</text>
+    </g>
+  </g>
+
+  <!-- FOREGROUND CONTENT (Guaranteed on top of animations and effects) -->
+  <g text-anchor="middle" filter="url(#textShadow)">
+    <!-- Small Category Eyebrow Tag -->
+    <g transform="translate(600, 75)">
+      <rect x="-140" y="-14" width="280" height="28" rx="14" fill="#0f172a" stroke="#6366f1" stroke-width="1.2" opacity="0.95" />
+      <text x="0" y="4" fill="#a5b4fc" font-size="11.5" font-weight="700" letter-spacing="2">CURATED ECOSYSTEM DIRECTORY</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="600" y="150" fill="#ffffff" font-size="44" font-weight="900" letter-spacing="-1">
+      Awesome <tspan fill="url(#primaryGlow)">Electronic Signature</tspan>
+    </text>
+
+    <!-- Subtitle -->
+    <text x="600" y="195" fill="#cbd5e1" font-size="18" font-weight="500" letter-spacing="0.2">
+      Digital Document Signing, Cryptographic Verification &amp; Workflow Automation
+    </text>
+
+    <!-- Feature Highlights -->
+    <g transform="translate(600, 240)">
+      <rect x="-340" y="-16" width="680" height="34" rx="17" fill="#0b1329" stroke="#334155" stroke-width="1" opacity="0.9" />
+      <text x="0" y="6" fill="#94a3b8" font-size="13.5" font-weight="500">
+        ✍️ <tspan fill="#f1f5f9" font-weight="600">DocuSign Alternatives</tspan>
+        &nbsp;&nbsp;•&nbsp;&nbsp;
+        🔐 <tspan fill="#f1f5f9" font-weight="600">PKI &amp; Audit Trails</tspan>
+        &nbsp;&nbsp;•&nbsp;&nbsp;
+        📄 <tspan fill="#f1f5f9" font-weight="600">PDF Cryptography</tspan>
+        &nbsp;&nbsp;•&nbsp;&nbsp;
+        ⚡ <tspan fill="#f1f5f9" font-weight="600">E-Sign APIs</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
